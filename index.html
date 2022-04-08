@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello World <small>Slogan for subtitle 1</small></h1>
+        <h2>This is subtitle 2 -<small>Slogan for subtitle 2</small></h2>
+        <h3>This is subtitle 3 - <small>Slogan for subtitle 3</small></h3>
+        <h4>This is subtitle 4 - <small>Slogan for subtitle 4</small></h4>
+        <h5>This is subtitle 5 - <small>Slogan for subtitle 5</small></h5>
+        <h6>This is subtitle 6 - <small>Slogan for subtitle 6</small></h6>
+        <p>Lorem ipsum <strong>dolor sit, amet consectetur</strong> adipisicing elit. In ipsa nulla et non odio
+            <em>nihil explicabo,</em> dignissimos ipsam illo ex assumenda <del>perspiciatis repellat</del> cumque
+            <mark>autem eligendi nobis</mark>, est minus necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Similique totam quis vel cupiditate
+            explicabo <em>neque cumque sint</em> fugit <del>qui perferendis earum</del>, soluta, modi quos eius tempora
+            <mark>excepturi fugiat</mark> repellendus saepe!</p>
+        <hr>
+        <h2>List</h2>
+        <ul>
+            <li>This is item 1</li>
+            <li>This is item 2</li>
+            <li>This item 3</li>
+        </ul>
+        <ul class="list-unstyled">
+            <li>This is item 1</li>
+            <li>This is item 2</li>
+            <li>This is item 3</li>
+        </ul>
+        <!-- CSS - display:inline-block -->
+        <ul class="list-inline">
+            <li class="list-inline-item">This is item 1</li>
+            <li class="list-inline-item">This is item 2</li>
+            <li class="list-inline-item">This is item 3</li>
+        </ul>
+        <!-- CSS - text-align:left,right,justify // start and end is used to support LTR (english )and RTL (arabic) -->
+        <p class="text-start">This is left text</p>
+        <p class="text-center">This is center text</p>
+        <p class="text-end">This is right text</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque ipsa ut,
+            dolore exercitationem voluptatum accusantium earum, fugiat officiis illo magni aspernatur sint impedit
+            similique quod sapiente aut minus dicta.</p>
+        <p>
+            To restart your pc type:
+            <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Enter</kbd>
+        </p>
+        <!-- &lt;  "<" &gt; ">" -> Entity - Untuk membuat symbol di dalam HTML &trade; &copy;   -->
+        <p>Let's take a <code>&lt;br/&gt;</code></p>
+        <h2>Contextual Color</h2>
+        <p class="text-primary">THis is a paragraph</p>
+        <p class="text-secondary">This is a paragraph</p>
+        <p class="text-info">This is a paragraph</p>
+        <p class="text-success">This is a paragraph</p>
+        <p class="text-warning">This is a paragraph</p>
+        <p class="text-danger">This is a paragraph</p>
+        <p class="bg-dark text-light">THis is example for combination</p>
+        <p class="bg-warning text-danger">THis is example for combination</p>
+        <p class="bg-success text-warning">THis is example for combination</p>
+        <hr>
+        <h2>Button</h2>
+        <button class="btn btn-primary">Press me</button>
+        <button class="btn btn-secondary">Press me</button>
+        <button class="btn btn-info">Press me</button>
+        <button class="btn btn-dark">Press me</button>
+        <button class="btn btn-danger btn-sm">Press me</button>
+        <button class="btn btn-danger">Press me</button>
+        <button class="btn btn-danger btn-lg">Press me</button>
+        <button class="btn btn-danger" disabled>Press me</button>
+        <button class="btn btn-outline-danger">Press me</button>
+
+        <hr>
+        <h2>Margin and padding</h2>
+        <!-- Margin: Jarak antara kotak dan jirannya (distance between border and it's neighbour)
+        Padding: Jarak antara border dan isi (distance between an element and it's inner element -->
+        <!-- m - margin p - padding   steb (start, top, end, bottom) xy (horisontal , vertical) if not specified, it means all 4  (1-5)-->
+        <div class="bg-dark text-white p-5 my-3">
+            <h2>This is title</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in expedita sequi ducimus dolores a
+                repellendus, fugit modi suscipit qui? Blanditiis perferendis repudiandae rerum possimus officia
+                repellendus a porro assumenda?</p>
+        </div>
+        <div class="bg-danger text-warning py-3 px-5">
+            <h2>This is title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quisquam numquam explicabo debitis,
+                suscipit sunt voluptatibus architecto amet beatae, iste maiores aut. Ducimus culpa dicta assumenda
+                beatae debitis asperiores eveniet!</p>
+        </div>
+        <hr>
+        <h2>Form</h2>
+        <hr>
+        <h3>Login form</h3>
+        <div class="mb-3">
+            <label for="emailForm" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailForm" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="passwordForm" class="form-label">Password</label>
+            <input type="password" class="form-control" id="passwordForm">
+        </div>
+        <button class="btn btn-primary">Log in</button>
+        <hr>
+        <h3>Exercise form</h3>
+        <div class="mb-3">
+            <label for="emailForm" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailForm" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="passwordForm" class="form-label">Password</label>
+            <input type="password" class="form-control" id="passwordForm">
+        </div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">File Input</label>
+            <input class="form-control" type="file" id="formFile">
+            <p class="text-secondary">Example block level text here</p>
+        </div>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="checkForm">
+            <label class="form-check-label" for="checkForm">
+                Check me out
+            </label>
+        </div>
+
+        <button class="btn btn-outline-secondary">Submit</button>
+        <hr>
+        <h2>Table</h2>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr class="bg-success text-light">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wan</td>
+                    <td>Wan@gmail.com</td>
+                    <td>01234567890</td>
+                </tr>
+                <tr>
+                    <td>Muss</td>
+                    <td>muss@gmail.com</td>
+                    <td>012345678</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>john@gmail.com</td>
+                    <td>012345678</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>Bootstrap grid system</h2>
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugit dicta magni aut delectus
+                    dolorum dolore, explicabo nisi adipisci ad maxime cumque consequatur, dolor error itaque nostrum?
+                    Ad, illum nemo?</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugit dicta magni aut delectus
+                    dolorum dolore, explicabo nisi adipisci ad maxime cumque consequatur, dolor error itaque nostrum?
+                    Ad, illum nemo?</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugit dicta magni aut delectus
+                    dolorum dolore, explicabo nisi adipisci ad maxime cumque consequatur, dolor error itaque nostrum?
+                    Ad, illum nemo?</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus facilis perspiciatis nihil alias veritatis, nemo maxime ducimus excepturi suscipit dignissimos doloremque quidem illo nesciunt labore. Velit, eligendi. Cupiditate, nihil deserunt.</p>
+            </div>
+            <div class="col-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus facilis perspiciatis nihil alias veritatis, nemo maxime ducimus excepturi suscipit dignissimos doloremque quidem illo nesciunt labore. Velit, eligendi. Cupiditate, nihil deserunt.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sint tenetur tempore, molestias optio, asperiores, culpa quos cupiditate maxime ab numquam unde recusandae necessitatibus. Iusto fuga magni aperiam non inventore.</p>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad quis reiciendis assumenda provident in commodi, maxime praesentium, exercitationem harum ducimus! Laudantium maxime voluptas eos adipisci illo. Accusamus, eum soluta?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">This is an item</div>
+            <div class="col-2">This is an item</div>
+            <div class="col-2">This is an item</div>
+            <div class="col-2">This is an item</div>
+            <div class="col-2">This is an item</div>
+            <div class="col-2">This is an item</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-8">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel assumenda suscipit asperiores hic quibusdam odio blanditiis voluptates aliquid, qui quod corporis, quos fuga quam error iste eligendi placeat officia perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel assumenda suscipit asperiores hic quibusdam odio blanditiis voluptates aliquid, qui quod corporis, quos fuga quam error iste eligendi placeat officia perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel assumenda suscipit asperiores hic quibusdam odio blanditiis voluptates aliquid, qui quod corporis, quos fuga quam error iste eligendi placeat officia perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel assumenda suscipit asperiores hic quibusdam odio blanditiis voluptates aliquid, qui quod corporis, quos fuga quam error iste eligendi placeat officia perspiciatis.</p>
+            </div>
+            <div class="col-4">
+                <img src="https://media.cntraveler.com/photos/6123eaa58bc8dc02852f29c7/3:2/w_4500,h_3000,c_limit/KualaLumpur%20Malaysia%20GettyImages-509105016.jpg" alt="This is kuala lumpur" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
